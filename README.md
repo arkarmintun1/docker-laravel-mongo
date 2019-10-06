@@ -1,5 +1,6 @@
-# docker-compose-laravel
-A pretty simplified docker-compose workflow that sets up a LEMP network of containers for local Laravel development. You can view the full article that inspired this repo [here](https://medium.com/@aschmelyun).
+# docker-mongo-laravel
+
+Docker setup to use with mongo as an alternative for mysql database
 
 
 ## Usage
@@ -11,5 +12,5 @@ Open up your browser of choice to [http://localhost:8080](http://localhost:8080)
 Containers created and their ports are as follows:
 
 - **nginx** - `:8080`
-- **mysql** - `:3306`
+- **mongo** - `:27017`
 - **php** - `:9000`
